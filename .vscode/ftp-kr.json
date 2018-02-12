@@ -1,0 +1,29 @@
+{
+    "host": "127.0.0.1",
+    "username": "root",
+    "password": "student",
+    "remotePath": "/usr/src",
+    "protocol": "sftp",
+    "port": 2222,
+    "fileNameEncoding": "utf8",
+    "ignoreWrongFileEncoding": false,
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        "/usr/src/.vscode/chrome",
+        "/usr/src/.vscode/.key",
+        "/usr/src/.vscode/ftp-kr.task.json",
+        "/usr/src/.vscode/ftp-kr.error.log",
+        "/usr/src/.vscode/ftp-kr.sync.*.json",
+        "/usr/src/.vscode/ftp-kr.json",
+        "/usr/src/.git/index",
+        "/.vscode/chrome",
+        "/.vscode/.key",
+        "/.vscode/ftp-kr.task.json",
+        "/.vscode/ftp-kr.error.log",
+        "/.vscode/ftp-kr.sync.*.json",
+        "/.vscode/ftp-kr.json",
+        "/.git/"
+    ]
+}
