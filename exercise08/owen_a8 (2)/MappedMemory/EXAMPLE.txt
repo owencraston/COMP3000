@@ -1,0 +1,15 @@
+Example
+
+$ make
+gcc -c mmap-read.c 
+gcc -c mmap-write.c 
+gcc -o mmap-read mmap-read.o  
+gcc -o mmap-write mmap-write.o
+
+$ ./mmap-write /tmp/my-file
+
+$ cat /tmp/my-file
+-16
+
+$ ./mmap-read /tmp/my-file
+file contains: -16
