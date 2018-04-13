@@ -8,7 +8,7 @@
 - assignment 2,3 do not work
 
 #### Assignment 4 - 10
-- These assignments was written for linix kernal 4.4 +
+- These assignments was written for linux kernel 4.4 +
 
 ##### Grades and feedback
 - Please keep in mind how tired I was when writing most of ths code ;)
