@@ -12,6 +12,14 @@ int main (int argc, char* argv[])
   int fd;
   struct flock lock;
 
+  if (argc != 2) {
+    printf("Invalid number of arguments.\n");
+    return(0);
+  } else if (!fopen (argv[1],"r")) {
+    printf("Invalid file.\n");
+    return(0);
+  }
+
   fd = open(file, O_RDWR);
   lock.l_type    = F_WRLCK;
   lock.l_start   = 0;

@@ -29,8 +29,8 @@ Good Work!
 Saad Hasan
 - `Exercise 9`	4.00/4
 Nice Work, Hemant
-- `Exercise 10`	2 /4
+- `Exercise 10`	4/4
 2/2 for testing the lock
-0/2 for testing if the file exists.
+2/2 for testing if the file exists.
 
 
